@@ -1,4 +1,4 @@
-# Credit Risk Classification - Module 12
+# Credit Risk Classification - Module 20
 
 ## Overview of the Analysis
 
@@ -18,10 +18,10 @@ Machine Learning Model: Logistic Regression
 
 Confusion Matrix:
 
-True Positives (TP) for High-Risk Loans: 583
-True Negatives (TN) for Healthy Loans: 18,655
-False Positives (FP) for High-Risk Loans: 110
-False Negatives (FN) for High-Risk Loans: 36
+True Positives (TP) for High-Risk Loans: 18663
+True Negatives (TN) for Healthy Loans: 563
+False Positives (FP) for High-Risk Loans: 56
+False Negatives (FN) for High-Risk Loans: 102
 Classification Report:
 
 Class 0 (Healthy Loan):
@@ -30,14 +30,14 @@ Recall: 0.99
 F1-Score: 1.00
 Support: 18,765
 Class 1 (High-Risk Loan):
-Precision: 0.84
-Recall: 0.94
-F1-Score: 0.89
+Precision: 0.85
+Recall: 0.91
+F1-Score: 0.88
 Support: 619
 Accuracy: 0.99
 Macro Average:
 Precision: 0.92
-Recall: 0.97
+Recall: 0.95
 F1-Score: 0.94
 Weighted Average:
 Precision: 0.99
@@ -46,8 +46,8 @@ F1-Score: 0.99
 
 ## Summary
 
-* Best Performing Model: The logistic regression model performs well with an overall accuracy of 0.99 and high precision and recall for healthy loans (Class 0). The model is effective in correctly identifying healthy loans with a precision of 1.00 and a recall of 0.99.
+The logistic regression model performs well with an overall accuracy of 0.99 and high precision and recall for healthy loans (Class 0). The model is effective in correctly identifying healthy loans with a precision of 1.00 and a recall of 0.99.
 
-* Performance Importance: Identifying high-risk loans (Class 1) is critical for managing financial risk. While the model has a high recall of 0.94 for high-risk loans, the precision is lower at 0.84. This means that some high-risk loans are incorrectly classified as healthy (false negatives), which could lead to financial losses. Although the model effectively identifies most high-risk loans, the presence of 36 false negatives is a concern.
+* Performance Importance: Identifying high-risk loans (Class 1) is critical for managing financial risk. While the model has a high recall of 0.91 for high-risk loans, the precision is lower at 0.85. This means that some high-risk loans are incorrectly classified as healthy (false negatives), which could lead to financial losses. Although the model effectively identifies most high-risk loans, the presence of 36 false negatives is a concern.
 
 * Recommendation: Despite the strong overall performance, the lower precision for high-risk loans and the presence of false negatives highlight a need for model improvement. Reducing false negatives is crucial for better risk management. Enhancing the model to increase precision for high-risk loans would make it more reliable for identifying and managing high-risk situations. Therefore, while the model is currently effective, further tuning is recommended to improve its performance in high-risk loan detection.
