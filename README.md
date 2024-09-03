@@ -71,11 +71,11 @@ The dataset used for this project contains 77,536 observations and the following
 3. Follow the steps outlined in the code to train and evaluate the logistic regression model.
 
 ## Dependencies
-Python 3.x
-Pandas
-Scikit-learn
-Seaborn
-Matplotlib
+- Python 3.x
+- Pandas
+- Scikit-learn
+- Seaborn
+- Matplotlib
 
 ## Acknowledgements
 This project is based on data analysis and model training techniques using Python and Scikit-learn. Special thanks to the developers and the community behind these powerful tools.
