@@ -1,7 +1,7 @@
 # Loan Status Prediction using Logistic Regression
 
 ## Overview
-This project involves building a logistic regression model to predict loan status, distinguishing between healthy loans (0) and high-risk loans (1). The dataset includes various features related to loan size, interest rates, borrower income, and more. The goal is to assess the model's performance in accurately classifying loan status.
+This assignment involves building a logistic regression model to predict loan status, distinguishing between healthy loans (0) and high-risk loans (1). The dataset includes various features related to loan size, interest rates, borrower income, and more. The goal is to assess the model's performance in accurately classifying loan status.
 
 ## Dataset
 The dataset used for this project contains 77,536 observations and the following features:
